@@ -15,3 +15,9 @@ g++ -std=c++17 \
 ```
 Project was build on Arch Linux with gcc.
 
+Working with W25Q128 and 25LC040A memory can differenciate here
+|Metric|W25Q128|25LC040A|
+|---|---|---|
+|Capacity|16 MB|512 bytes|
+|Writing|By pages|By bytes|
+|Erasing before writing|Required|Not required|
